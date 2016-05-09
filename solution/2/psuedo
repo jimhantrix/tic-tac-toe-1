@@ -1,0 +1,68 @@
+
+
+
+
+Tic Tac Toe
+
+
+Create HTML File
+Create JS File
+Create CSS File
+
+
+Step 1:
+
+// Make grid with HTML//
+
+reset button
+Make a grid 3X3 squares
+message container
+
+Step 2:
+
+// implement variables //
+
+playerMove
+computerMove
+message
+reset
+winner
+
+
+// pull element tags//
+
+define location tags to pull into functions
+
+
+// implement functions //
+
+getPlayerMove();
+getComputerMove();
+ui_message();
+resetGame();
+trackKeeper();
+
+Step 3:
+
+// implement variables //
+
+playerMove
+computerMove
+message
+reset
+winner
+
+
+Step 4:
+
+// implement functions //
+
+getPlayerMove();
+getComputerMove();
+ui_message();
+resetGame();
+trackKeeper();
+
+// pull element tags//
+
+define location tags to pull into functions
