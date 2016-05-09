@@ -3,6 +3,10 @@ window.onload = startGame();
 
 var cells = document.querySelectorAll("td")
 
+function startGame() {
+    xoListener();
+}
+
 
 function xoListener(){
  for (var i = cells.length - 1; i >= 0; i--) {
