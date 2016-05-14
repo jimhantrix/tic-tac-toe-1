@@ -1,38 +1,33 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Tic tac toe!</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+<!-- <!DOCTYPE html> -->
+<html lang ="en">
+  <head>
+    <title>Tic Tac Toe ||By Jim Tekanyo</title>
+       <meta charset="utf-8">
+        <!-- set viewport to device width to allow responsiveness -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Bootstrap CSS from CDN -->
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <!-- link to custom stylesheet (always require after Bootstrap) -->
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="text/javascript" src="app.js"></script>
 </head>
 <body>
-    <header id="header">
-        TIC TAC TOE
-    </header>
+    <h1>Tic Tac Toe</h1>
 
-    <div id="button-div">
-        <button class="button" alt="Game Reset Button">New Game</button>
-    </div>
-
-    <!-- <div id="grid">
-        <div id="message">This is a message.</div> -->
-        <table class="playing-board"><br>
-            <tr>
-                <td id="item1" class="cell"></td>
-                <td id="item2" class="cell"></td>
-                <td id="item3" class="cell"></td>
-            </tr>
-            <tr>
-                <td id="item4" class="cell"></td>
-                <td id="item5" class="cell"></td>
-                <td id="item6" class="cell"></td>
-            </tr>
-            <tr>
-                <td id="item7" class="cell"></td>
-                <td id="item8" class="cell"></td>
-                <td id="item9" class="cell"></td>
-            </tr>
-        </table>  
-    </div>
-<script type="text/javascript" src="script.js"></script>
+<div class="messages" value="container">
+<div id ="box">
+  <input type ="button" id ='btn1' onclick="clickBtn('btn1')"/>
+  <input type ="button" id ='btn2' onclick="clickBtn('btn2')"/>
+  <input type ="button" id ='btn3' onclick="clickBtn('btn3')"/>
+  <input type ="button" id ='btn4' onclick="clickBtn('btn4')"/>
+  <input type ="button" id ='btn5' onclick="clickBtn('btn5')"/>
+  <input type ="button" id ='btn6' onclick="clickBtn('btn6')"/>
+  <input type ="button" id ='btn7' onclick="clickBtn('btn7')"/>
+  <input type ="button" id ='btn8' onclick="clickBtn('btn8')"/>
+  <input type ="button" id ='btn9' onclick="clickBtn('btn9')"/>
+</div><br>
+<div>
+<input type="reset"id="btnReset" onclick= reset() value = "RESET"/>
+<div>
 </body>
 </html>

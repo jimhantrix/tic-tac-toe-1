@@ -1,118 +1,42 @@
-* {
-   margin:0 auto;;
-}
+body {
 
-
-table {
-border-collapse: collapse;
-height: 30em;
-width: 30em;
-margin:0 auto;
-
-
-}
-table td, table th {
- border: 10px solid :#794EA3;
- border-top: 0;
-}
-table tr:first-child th {
- border-top: 0;
-}
-table tr:last-child td {
- border-bottom: 0;
-}
-table tr td:first-child,
-table tr th:first-child {
- border-left: 0;
-}
-table tr td:last-child,
-table tr th:last-child {
- border-right: 0;
-}
-
-body{
-    background: white;
-    text-align: center;
-}
-
-#header{
-    margin: center;
-    padding: 20px;
-    text-align: center;
-    font-family: Tahoma;
-    font-size: 3em;
-    color: #794EA3
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+  color:black;
+  text-shadow: -1px -1px solid black;
+  background:url("http://wonderfulengineering.com/wp-content/uploads/2014/09/star-wars-wallpaper-21-1024x640.jpg") 100px;
+  background-size:cover;
+  background-position:center;
 
 }
-
-.button{
-    -moz-box-shadow: 0px 10px 14px -7px #3329c2 ;
-    -webkit-box-shadow: 0px 10px 14px -7px #3329c2 ;
-    box-shadow: 0px 10px 14px -7px #3329c2 ;
-    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #6c268a ), color-stop(1, #2b235e ));
-    background:-moz-linear-gradient(top, #6c268a  5%, #2b235e  100%);
-    background:-webkit-linear-gradient(top, #6c268a  5%, #2b235e  100%);
-    background:-o-linear-gradient(top, #6c268a  5%, #2b235e  100%);
-    background:-ms-linear-gradient(top, #6c268a  5%, #2b235e  100%);
-    background:linear-gradient(to bottom, #6c268a  5%, #2b235e  100%);
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#6c268a ', endColorstr='#2b235e ',GradientType=0);
-    background-color:#6c268a ;
-    -moz-border-radius:8px;
-    -webkit-border-radius:8px;
-    border-radius:8px;
-    display:inline-block;
-    cursor:pointer;
-    color:#ffffff ;
-    font-family:Arial;
-    font-size:20px;
-    font-weight:bold;
-    padding:13px 32px;
-    text-decoration:none;
-    text-shadow:0px 1px 0px #48225e ;
-}
-.button:hover {
-    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #2b235e ), color-stop(1, #6c268a ));
-    background:-moz-linear-gradient(top, #2b235e  5%, #6c268a  100%);
-    background:-webkit-linear-gradient(top, #2b235e  5%, #6c268a  100%);
-    background:-o-linear-gradient(top, #2b235e  5%, #6c268a  100%);
-    background:-ms-linear-gradient(top, #2b235e  5%, #6c268a  100%);
-    background:linear-gradient(to bottom, #2b235e  5%, #6c268a  100%);
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2b235e ', endColorstr='#6c268a ',GradientType=0);
-    background-color:#2b235e ;
-}
-.button:active {
-    position:relative;
-    top: 1px;
-
+body h1 {
+  font-family:'Latin'
 }
 
-
-#button-div{
-    margin: 0 auto;
-    max-width: 175px
-
+  #box {
+  width:302px;
+  height:302px;
+  border:
+  text-align:center;
+  padding:inherit;
+  margin:0 auto;
 }
 
-#grid{
-    /*margin:center;*/
-    max-width: 600px
-    position:center
-
+#btnReset{
+  width: 80px;
+  height: 40px;
+  border: none;
+  font-size:20px 110px;
+  background:grey;
+  color:#66ff99;
 }
 
-.button:hover{
-    cursor: pointer;
+input{
+width:80px;
+height:80px;
+border:none;
 }
-
-table:hover{
-    cursor: pointer;
-}
-
-#message{
-    color: black;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    margin: 0 auto;
-    text-align: center;
-    font-family: Tahoma;
+body .reset:hover {
+  opacity: 0.8;
 }
