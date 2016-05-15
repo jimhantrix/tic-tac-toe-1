@@ -1,4 +1,4 @@
-<!-- <!DOCTYPE html> -->
+
 <html lang ="en">
   <head>
     <title>Tic Tac Toe ||By Jim Tekanyo</title>
@@ -9,25 +9,25 @@
         <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
         <!-- link to custom stylesheet (always require after Bootstrap) -->
         <link rel="stylesheet" type="text/css" href="style.css">
-        <script type="text/javascript" src="app.js"></script>
+        <script src= "app.js"></script>
 </head>
 <body>
     <h1>Tic Tac Toe</h1>
 
 <div class="messages" value="container">
 <div id ="box">
-  <input type ="button" id ='btn1' onclick="clickBtn('btn1')"/>
-  <input type ="button" id ='btn2' onclick="clickBtn('btn2')"/>
-  <input type ="button" id ='btn3' onclick="clickBtn('btn3')"/>
-  <input type ="button" id ='btn4' onclick="clickBtn('btn4')"/>
-  <input type ="button" id ='btn5' onclick="clickBtn('btn5')"/>
-  <input type ="button" id ='btn6' onclick="clickBtn('btn6')"/>
-  <input type ="button" id ='btn7' onclick="clickBtn('btn7')"/>
-  <input type ="button" id ='btn8' onclick="clickBtn('btn8')"/>
-  <input type ="button" id ='btn9' onclick="clickBtn('btn9')"/>
+  <input type="button" id ='a1' onclick="getPlayerMove('a1');"/>
+  <input type="button" id ='a2' onclick="getPlayerMove('a2');"/>
+  <input type="button" id ='a3' onclick="getPlayerMove('a3');"/>
+  <input type="button" id ='b1' onclick="getPlayerMove('b1');"/>
+  <input type="button" id ='b2' onclick="getPlayerMove('b2');"/>
+  <input type="button" id ='b3' onclick="getPlayerMove('b3');"/>
+  <input type="button" id ='c1' onclick="getPlayerMove('c1');"/>
+  <input type="button" id ='c2' onclick="getPlayerMove('c2');"/>
+  <input type="button" id ='c3' onclick="getPlayerMove('c3');"/>
 </div><br>
 <div>
-<input type="reset"id="btnReset" onclick= reset() value = "RESET"/>
+<input type="button" id="btnReset" onclick="reset()" value = "RESET"/>
 <div>
 </body>
 </html>

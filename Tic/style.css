@@ -1,5 +1,4 @@
 body {
-
   margin: 0 auto;
   text-align: center;
   margin-top: 50px;
@@ -8,7 +7,6 @@ body {
   background:url("http://wonderfulengineering.com/wp-content/uploads/2014/09/star-wars-wallpaper-21-1024x640.jpg") 100px;
   background-size:cover;
   background-position:center;
-
 }
 body h1 {
   font-family:'Latin'
@@ -29,7 +27,7 @@ body h1 {
   border: none;
   font-size:20px 110px;
   background:grey;
-  color:#66ff99;
+  color:black;
 }
 
 input{
@@ -37,6 +35,6 @@ width:80px;
 height:80px;
 border:none;
 }
-body .reset:hover {
+body #btnReset:hover {
   opacity: 0.8;
 }
